@@ -1,0 +1,23 @@
+.txt{
+    
+    padding-top: 10px; 
+    padding-bottom: 0px;
+    padding-right: 50px;
+    padding-left: 5px;
+    border: 0px;
+    text-align: left;
+    border-bottom: 3px solid grey;
+    font-size: 18px;
+    position: absolute;
+    left: 300px;
+    outline: none;
+    color: #3b3a3a;
+    border-radius: 4px;
+}
+
+.txt:focus{
+    outline: none;
+    border-bottom: 3px solid #2f8ee2;
+    transition: border-bottom 1s;
+    border-left: 0.5px solid grey;border-top: 0.5px solid grey;border-right: 0.5px solid grey;
+}

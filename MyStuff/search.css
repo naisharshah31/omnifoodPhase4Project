@@ -1,0 +1,39 @@
+.search_logo_container{
+    border: 1px solid grey;
+    width: 40%;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius : 20px;
+}
+
+input:focus{
+    
+    outline: none;
+    
+}
+.search_logo_container:hover{
+    box-shadow: 2px 2px 8px grey;
+}
+
+input{
+    position: relative;
+    max-width: 800px;
+    width: 85%;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    font-size: 18px;
+}
+
+.logo{
+    position: absolute;
+    right: 62%;
+    top: 2.75%;
+    height: 23px;
+    color: blue;
+}
+
+.logo:hover{
+    height: 24px;
+    transition: height 0.2s;
+}
